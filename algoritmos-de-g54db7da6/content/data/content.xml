@@ -1,0 +1,731 @@
+<zuiprezi>
+  <version>7</version>
+  <zui-table>
+    <settings>
+      
+      <autoplay>
+        
+        <delay>4000</delay>
+        
+      </autoplay>
+      
+      <bounds x="-21683.273319246553" y="-13266.289586821113" width="43366.546638493106" height="26532.579173642225"/>
+      <aspectratio>off</aspectratio>
+      <languages>
+        <language>es</language>
+      </languages>
+      <mode type="normal"/>
+    </settings>
+    <object id="0_13415665" type="button" x="-8.571783500501193e-13" y="7.89547899956025e-13" r="3.9091181330718526e-30" s="36.00078585297452" class="invisible">
+      <type>invisible</type>
+      <size>
+        <w>1206.2927886826346</w>
+        <h>738.7060912019131</h>
+      </size>
+      <meta>
+        <notModifiedByUser>from-template</notModifiedByUser>
+        <parentTemplate>above-the-clouds3-light</parentTemplate>
+      </meta>
+      <layout>
+        <frametype value="OVERVIEW"/>
+      </layout>
+    </object>
+    <object id="15_24309637" type="text" x="9053.369616513563" y="9594.29140511669" r="3.704540324271303e-30" s="52.59998281426698" class="strong">
+      <height>29.16</height>
+      <width>439.6886557259082</width>
+      <p align="right">
+        <text><![CDATA[ACM-UNMSM]]></text>
+      </p>
+      <layout>
+        <layout-element role="title"/>
+      </layout>
+    </object>
+    <object id="16_24309637" type="text" x="9158.226770968331" y="6711.619982983645" r="2.438772723702136e-30" s="78.51089019619393" class="head">
+      <height>29.16</height>
+      <width>284.93275264312484</width>
+      <p align="right">
+        <text><![CDATA[Algoritmos de Grafos]]></text>
+      </p>
+    </object>
+    <object id="15_30863873" type="button" x="13371.53224571733" y="-6126.724307761267" r="2.1599675835130405e-15" s="5.853416568507711" class="circle">
+      <type>circle</type>
+      <size>
+        <w>800</w>
+        <h>800</h>
+      </size>
+      <meta>
+        <notModifiedByUser>from-template</notModifiedByUser>
+        <parentTemplate>above-the-clouds3-light</parentTemplate>
+      </meta>
+      <layout>
+        <frametype value="SECTION"/>
+      </layout>
+    </object>
+    <object id="16_30863873" type="image" x="13363.421088331044" y="-7813.358406229481" r="5.72437615549829e-30" s="2.897999060040367">
+      <source w="205" h="206">606632693<url>606632693.swf</url></source>
+      <sourceUrl>sun_w.swf</sourceUrl>
+      <extra>
+        <fixed_avm1_pos>1</fixed_avm1_pos>
+      </extra>
+      <meta>
+        <notModifiedByUser>from-template</notModifiedByUser>
+        <parentTemplate>above-the-clouds3-light</parentTemplate>
+      </meta>
+    <resource><id>606632693</id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/5/a/1/7c63b6d291ddb166423eb0effd37443c16a7d.swf</url></resource></object>
+    <object id="17_30863873" type="button" x="-14158.55519871021" y="4899.087388917464" r="8.142012440897286e-30" s="4.261008319394796" class="circle">
+      <type>circle</type>
+      <size>
+        <w>800</w>
+        <h>800</h>
+      </size>
+      <meta>
+        <notModifiedByUser>from-template</notModifiedByUser>
+        <parentTemplate>above-the-clouds3-light</parentTemplate>
+      </meta>
+      <layout>
+        <frametype value="SECTION"/>
+      </layout>
+    </object>
+    <object id="18_30863873" type="button" x="-4987.730690446734" y="2858.816086844368" r="4.2400710510371314e-30" s="4.541531660468069" class="circle">
+      <type>circle</type>
+      <size>
+        <w>800</w>
+        <h>800</h>
+      </size>
+      <meta>
+        <notModifiedByUser>from-template</notModifiedByUser>
+        <parentTemplate>above-the-clouds3-light</parentTemplate>
+      </meta>
+      <layout>
+        <frametype value="SECTION"/>
+      </layout>
+    </object>
+    <object id="19_30863873" type="button" x="1709.2080233019212" y="-4050.427904311811" r="6.672069328168488e-30" s="4.89595995020793" class="circle">
+      <type>circle</type>
+      <size>
+        <w>800</w>
+        <h>800</h>
+      </size>
+      <meta>
+        <notModifiedByUser>from-template</notModifiedByUser>
+        <parentTemplate>above-the-clouds3-light</parentTemplate>
+      </meta>
+      <layout>
+        <frametype value="SECTION"/>
+      </layout>
+    </object>
+    <object id="20_30863873" type="text" x="-14178.417030173126" y="5236.090721662517" r="-6.1884462435379225e-15" s="5.230812035102689" class="body">
+      <height>174.96</height>
+      <width>475.62015458348174</width>
+      <p>
+        <text><![CDATA[El desarrollo de grafos nos ayudará a resolver distintos problemas, y facilitará la búsqueda de soluciones óptimas, para poder trabajar con estos es necesario, tener en cuenta algo de teoría básica de grafos.]]></text>
+      </p>
+      <p>
+        <text><![CDATA[]]></text>
+      </p>
+      <layout>
+        <layout-element role="body" parent-id="17_30863873"/>
+      </layout>
+    </object>
+    <object id="21_30863873" type="shape" x="-9844.499497514124" y="2965.2385260434066" r="-12.00997894526912" s="20.116613992994196" class="line3">
+      <geom type="arrow">
+        <sp>-121.45413137623387 15.07925867644764</sp>
+        <ep>121.45413137623387 15.07925867644764</ep>
+        <b>-30.15851735289528</b>
+        <t>8</t>
+      </geom>
+      <meta>
+        <notModifiedByUser>from-template</notModifiedByUser>
+        <parentTemplate>above-the-clouds3-light</parentTemplate>
+      </meta>
+    </object>
+    <object id="22_30863873" type="shape" x="-590.7962673782107" y="503.13837569605016" r="-44.99999999999999" s="20.116613992994193" class="line3">
+      <geom type="arrow">
+        <sp>-134.68275083230833 -24.3600496958934</sp>
+        <ep>134.68275083230833 -24.3600496958934</ep>
+        <b>48.7200993917868</b>
+        <t>8</t>
+      </geom>
+      <meta>
+        <notModifiedByUser>from-template</notModifiedByUser>
+        <parentTemplate>above-the-clouds3-light</parentTemplate>
+      </meta>
+    </object>
+    <object id="23_30863873" type="shape" x="7160.653822076588" y="-6978.107203339324" r="-12.36340239063382" s="20.116613992994196" class="line3">
+      <geom type="arrow">
+        <sp>-178.88127511403948 30.03491609658506</sp>
+        <ep>178.88127511403945 30.03491609658506</ep>
+        <b>-60.06983219317012</b>
+        <t>8</t>
+      </geom>
+      <meta>
+        <notModifiedByUser>from-template</notModifiedByUser>
+        <parentTemplate>above-the-clouds3-light</parentTemplate>
+      </meta>
+    </object>
+    <object id="24_30863873" type="image" x="-4987.5568744323555" y="1680.1453409411215" r="5.828586088593704e-30" s="1.566093511214623">
+      <source w="323" h="272">606562429<url>606562429.swf</url></source>
+      <sourceUrl>alert_w.swf</sourceUrl>
+      <extra>
+        <fixed_avm1_pos>1</fixed_avm1_pos>
+      </extra>
+      <meta>
+        <notModifiedByUser>from-template</notModifiedByUser>
+        <parentTemplate>above-the-clouds3-light</parentTemplate>
+      </meta>
+    <resource><id>606562429</id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/c/e/5/d5d0704dc7661bea938bbda1cfa8506c02e4e.swf</url></resource></object>
+    <object id="25_30863873" type="text" x="-14175.279221307852" y="4422.902708621477" r="1.3470504659466516e-15" s="10.060773742787834" class="strong">
+      <height>29.16</height>
+      <width>269.68153179687033</width>
+      <p align="center">
+        <text><![CDATA[Introducción]]></text>
+      </p>
+      <layout>
+        <layout-element role="body"/>
+      </layout>
+    </object>
+    <object id="0_122811589" type="image" x="-4857.55" y="3790.7" r="4.2400710510371314e-30" s="4.559646068148433">
+      <source w="187" h="176">3035199064<url>3035199064.jpeg</url></source>
+      <sourceUrl>im1.jpeg</sourceUrl>
+    <resource><id>3035199064</id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/3/b/b/1f6c94cc249dcf6f0ee6e01e51d622576b6ce.jpeg</url></resource></object>
+    <object id="26_30863873" type="text" x="-5027.094390666595" y="2982.131327384483" r="5.0555667932879865e-15" s="5.2517749584234545" class="body">
+      <height>174.96</height>
+      <width>508.8064967467138</width>
+      <p>
+        <text><![CDATA[Un grafo G es una dupla G = (X, U), donde X es un conjunto finito y no vacío]]></text>
+      </p>
+      <p>
+        <text><![CDATA[de elementos llamados vértices y U es el conjunto cuyos elementos se componen de]]></text>
+      </p>
+      <p>
+        <text><![CDATA[subconjuntos de X de cardinalidad dos (2), llamados aristas.]]></text>
+      </p>
+      <layout>
+        <layout-element role="body" parent-id="17_30863873"/>
+      </layout>
+    </object>
+    <object id="27_30863873" type="image" x="1709.301424786045" y="-5408.39208193533" r="4.7332257871807765e-30" s="2.735746624065927">
+      <source w="230" h="136">606576039<url>606576039.swf</url></source>
+      <sourceUrl>cloud_w.swf</sourceUrl>
+      <extra>
+        <fixed_avm1_pos>1</fixed_avm1_pos>
+      </extra>
+      <meta>
+        <notModifiedByUser>from-template</notModifiedByUser>
+        <parentTemplate>above-the-clouds3-light</parentTemplate>
+      </meta>
+    <resource><id>606576039</id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/0/4/6/5e85c6650a4f575f230adc4a7871b9b83168b.swf</url></resource></object>
+    <object id="28_30863873" type="text" x="-4980.062339345923" y="2264.3528196071006" r="-2.2341883055488374e-15" s="10.187426418282085" class="strong">
+      <height>29.16</height>
+      <width>310.132272451288</width>
+      <p align="center">
+        <text><![CDATA[Definición de un grafo]]></text>
+      </p>
+      <layout>
+        <layout-element role="body"/>
+      </layout>
+    </object>
+    <object id="2_122811589" type="image" x="2483.45" y="-3071.2499999999995" r="6.672069328168489e-30" s="8.095091358262382">
+      <source w="250" h="160">3035215063<url>3035215063.png</url></source>
+      <sourceUrl>250px-Depth-first-tree.svg.png</sourceUrl>
+    <resource><id>3035215063</id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/d/4/4/ab2f1054e1043d9571cc9d4aa7439e9adb511.png</url></resource></object>
+    <object id="29_30863873" type="text" x="1452.2499999999998" y="-4027.5229603066077" r="3.1263894975765826e-15" s="5.661631754714249" class="body">
+      <height>204.12</height>
+      <width>508.8064967467138</width>
+      <p>
+        <text><![CDATA[El funcionamientode este algoritmoconsiste en ir expandiendo todos y cada uno de los nodos que va localizando, de forma recurrente, en un camino concreto. Cuando ya no quedan más nodos que visitar en dicho camino, regresa (Backtracking), de modo que repite el mismo proceso con cada uno de los hermanos del nodo ya procesado.]]></text>
+      </p>
+      <layout>
+        <layout-element role="body" parent-id="17_30863873"/>
+      </layout>
+    </object>
+    <object id="30_30863873" type="text" x="1717.4317444195922" y="-4870.600098326793" r="4.972785957079349e-30" s="11.304530389201663" class="strong">
+      <height>29.16</height>
+      <width>310.132272451288</width>
+      <p align="center">
+        <text><![CDATA[Depth First Search (DFS)]]></text>
+      </p>
+      <layout>
+        <layout-element role="body"/>
+      </layout>
+    </object>
+    <object id="31_30863873" type="text" x="13719.802977209867" y="-5504.159939603733" r="-3.7357126852419125e-15" s="3.9818653694705266" class="body">
+      <height>554.0400000000002</height>
+      <width>705.2354511968863</width>
+      <p>
+        <text><![CDATA[enum VertexState { White, Gray, Black };]]></text>
+      </p>
+      <p>
+        <text><![CDATA[ ]]></text>
+      </p>
+      <p>
+        <text><![CDATA[…]]></text>
+      </p>
+      <p>
+        <text><![CDATA[ ]]></text>
+      </p>
+      <p>
+        <text><![CDATA[void Graph::DFS() {]]></text>
+      </p>
+      <p>
+        <text><![CDATA[      VertexState *state = new VertexState[vertexCount];]]></text>
+      </p>
+      <p>
+        <text><![CDATA[      for (int i = 0; i < vertexCount; i++)]]></text>
+      </p>
+      <p>
+        <text><![CDATA[            state[i] = White;]]></text>
+      </p>
+      <p>
+        <text><![CDATA[      runDFS(0, state);]]></text>
+      </p>
+      <p>
+        <text><![CDATA[      delete [] state;]]></text>
+      </p>
+      <p>
+        <text><![CDATA[}]]></text>
+      </p>
+      <p>
+        <text><![CDATA[ ]]></text>
+      </p>
+      <p>
+        <text><![CDATA[void Graph::runDFS(int u, VertexState state[]) {]]></text>
+      </p>
+      <p>
+        <text><![CDATA[      state[u] = Gray;]]></text>
+      </p>
+      <p>
+        <text><![CDATA[      for (int v = 0; v < vertexCount; v++)]]></text>
+      </p>
+      <p>
+        <text><![CDATA[            if (isEdge(u, v) && state[v] == White)]]></text>
+      </p>
+      <p>
+        <text><![CDATA[                  runDFS(v, state);]]></text>
+      </p>
+      <p>
+        <text><![CDATA[      state[u] = Black;]]></text>
+      </p>
+      <p>
+        <text><![CDATA[}]]></text>
+      </p>
+      <layout>
+        <layout-element role="body" parent-id="17_30863873"/>
+      </layout>
+    </object>
+    <object id="32_30863873" type="text" x="13287.945009925512" y="-6867.726247228471" r="6.552130524924012e-30" s="11.37363683724764" class="strong">
+      <height>58.32</height>
+      <width>237.1457044894187</width>
+      <p align="center">
+        <text><![CDATA[Código en C++ (ejemplo)]]></text>
+      </p>
+      <layout>
+        <layout-element role="body"/>
+      </layout>
+    </object>
+    <object id="33_30863873" type="image" x="-14144.932595818746" y="3760.3629737089577" r="-9.294670271172629e-16" s="1.8225996138935967">
+      <source w="162" h="266">606579579<url>606579579.swf</url></source>
+      <sourceUrl>drop_w.swf</sourceUrl>
+      <extra>
+        <fixed_avm1_pos>1</fixed_avm1_pos>
+      </extra>
+      <meta>
+        <notModifiedByUser>from-template</notModifiedByUser>
+        <parentTemplate>above-the-clouds3-light</parentTemplate>
+      </meta>
+    <resource><id>606579579</id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/9/8/5/859ca6111de3362cef7864281cde310dbf537.swf</url></resource></object>
+    <object id="3_122811589" type="button" x="-522.8" y="-5110.3" r="6.672069328168488e-30" s="1.0597909804653243" class="circle">
+      <type>circle</type>
+      <size>
+        <w>800</w>
+        <h>800</h>
+      </size>
+    </object>
+    <object id="4_122811589" type="text" x="-445.0999999999999" y="-5355.349999999999" r="6.672069328168488e-30" s="2" class="body">
+      <height>29.16</height>
+      <width>-205.704</width>
+      <p>
+        <text><![CDATA[Speudo-código DFS]]></text>
+      </p>
+    </object>
+    <object id="5_122811589" type="text" x="-535.5849448153251" y="-5122.272797867662" r="6.672069328168488e-30" s="1.2523861281346533" class="body">
+      <height>233.28</height>
+      <width>-490.8720000000001</width>
+      <p>
+        <text><![CDATA[DFS(grafo G)]]></text>
+      </p>
+      <p>
+        <text><![CDATA[     PARA CADA vertice u ∈ V[G] HACER]]></text>
+      </p>
+      <p>
+        <text><![CDATA[             estado[u] ← NO_VISITADO]]></text>
+      </p>
+      <p>
+        <text><![CDATA[             padre[u] ← NULO]]></text>
+      </p>
+      <p>
+        <text><![CDATA[     tiempo ← 0]]></text>
+      </p>
+      <p>
+        <text><![CDATA[     PARA CADA vertice u ∈ V[G] HACER]]></text>
+      </p>
+      <p>
+        <text><![CDATA[             SI estado[u] = NO_VISITADO ENTONCES]]></text>
+      </p>
+      <p>
+        <text><![CDATA[                     DFS_Visitar(u,tiempo)]]></text>
+      </p>
+    </object>
+    <object id="6_122811589" type="button" x="-1086.3" y="-5452.1" r="-4.648548551097986" s="0.22940484270667968" class="circle">
+      <type>circle</type>
+      <size>
+        <w>800</w>
+        <h>800</h>
+      </size>
+    </object>
+    <object id="7_122811589" type="text" x="-1094.2573777132536" y="-5499.101522156031" r="-4.648548551097986" s="0.48703765803052607" class="body">
+      <height>58.32</height>
+      <width>205.088</width>
+      <p>
+        <text><![CDATA[Speudo-código DFS]]></text>
+      </p>
+    </object>
+    <object id="1_122811589" type="text" x="-1097.8623341148457" y="-5449.348796654134" r="-4.648548551097984" s="0.22720666191130479" class="body">
+      <height>320.76000000000005</height>
+      <width>-490.1040000000001</width>
+      <p>
+        <text><![CDATA[DFS_Visitar(nodo u, int tiempo)]]></text>
+      </p>
+      <p>
+        <text><![CDATA[     estado[u] ← VISITADO]]></text>
+      </p>
+      <p>
+        <text><![CDATA[     tiempo ← tiempo + 1]]></text>
+      </p>
+      <p>
+        <text><![CDATA[     d[u] ← tiempo]]></text>
+      </p>
+      <p>
+        <text><![CDATA[     PARA CADA v ∈ Vecinos[u] HACER]]></text>
+      </p>
+      <p>
+        <text><![CDATA[             SI estado[v] = NO_VISITADO ENTONCES]]></text>
+      </p>
+      <p>
+        <text><![CDATA[                     padre[v] ← u]]></text>
+      </p>
+      <p>
+        <text><![CDATA[                     DFS_Visitar(v,tiempo)]]></text>
+      </p>
+      <p>
+        <text><![CDATA[     estado[u] ← TERMINADO]]></text>
+      </p>
+      <p>
+        <text><![CDATA[     tiempo ← tiempo + 1]]></text>
+      </p>
+      <p>
+        <text><![CDATA[     f[u] ← tiempo]]></text>
+      </p>
+    </object>
+  </zui-table>
+  <path>
+    <s>
+      <eagle o="0_13415665"/>
+    </s>
+    <s>
+      <eagle o="17_30863873"/>
+    </s>
+    <s>
+      <eagle o="18_30863873"/>
+    </s>
+    <s>
+      <eagle o="19_30863873"/>
+    </s>
+    <s>
+      <eagle o="3_122811589"/>
+    </s>
+    <s>
+      <eagle o="6_122811589"/>
+    </s>
+    <s>
+      <eagle o="15_30863873"/>
+    </s>
+    <s>
+      <eagle o="0_13415665"/>
+    </s>
+  </path>
+  <style type="text/css"><![CDATA[
+@font-face
+{
+	src: url('Cabin-Regular.keg');
+	fontFamily: body;
+	font-class: body;
+	font-style: normal;
+	font-weight: normal;
+	font-family: Cabin;
+}
+
+@font-face
+{
+	src: url('Cabin-Bold.keg');
+	fontFamily: head;
+	font-class: head;
+	font-style: normal;
+	font-weight: bold;
+	font-family: Cabin;
+}
+
+@font-face
+{
+	src: url('Cabin-BoldItalic.keg');
+	fontFamily: strong;
+	font-class: strong;
+	font-style: italic;
+	font-weight: bold;
+	font-family: Cabin;
+}
+
+@font-face
+{
+	src: url('Cabin-Italic.keg');
+	font-style: italic;
+	font-weight: normal;
+	font-family: Cabin;
+}
+
+.line1
+{
+	color: #737373;
+	gradEndColor: #737373;
+	gradStartColor: #737373;
+}
+
+.line2
+{
+	color: #595959;
+	gradEndColor: #595959;
+	gradStartColor: #595959;
+}
+
+.line3
+{
+	color: #fc6a4b;
+	gradEndColor: #fc6a4b;
+	gradStartColor: #fc6a4b;
+}
+
+.line4
+{
+	color: #333;
+	gradEndColor: #333;
+	gradStartColor: #333;
+}
+
+.line5
+{
+	color: #191919;
+	gradEndColor: #191919;
+	gradStartColor: #191919;
+}
+
+.poly1
+{
+	gradEndColor: #737373;
+	gradStartColor: #737373;
+}
+
+.poly2
+{
+	gradEndColor: #595959;
+	gradStartColor: #595959;
+}
+
+.poly3
+{
+	gradEndColor: #fc6a4b;
+	gradStartColor: #fc6a4b;
+}
+
+.poly4
+{
+	gradEndColor: #333;
+	gradStartColor: #333;
+}
+
+.poly5
+{
+	gradEndColor: #191919;
+	gradStartColor: #191919;
+}
+
+Background
+{
+	gradEnd: #222;
+	gradStart: #222;
+}
+
+Grid
+{
+	color: #595959;
+}
+
+ZArrow
+{
+	borderColor: #f6f6f6;
+	borderThickness: 1;
+	gradEndColor: #737373;
+	gradStartColor: #737373;
+	lockTintAlpha: 0;
+	thickness: 7;
+}
+
+ZCircle
+{
+	borderAlpha: 1;
+	borderColor: #f6f6f6;
+	borderThickness: 1;
+	gradEndAlpha: 1;
+	gradStartAlpha: 1;
+	lockTintAlpha: 0;
+	radius: 0;
+	thickness: 100;
+}
+
+ZCurveLine
+{
+	color: #333;
+}
+
+ZFrame.bracket
+{
+	borderColor: #737373;
+	borderThickness: 0;
+	gradEndAlpha: .8;
+	gradEndColor: #737373;
+	gradStartAlpha: .8;
+	gradStartColor: #737373;
+	padding: 1.03;
+	radius: 10;
+	thickness: 8;
+}
+
+ZFrame.circle
+{
+	borderColor: #999;
+	borderThickness: 0;
+	gradEndAlpha: .8;
+	gradEndColor: #999;
+	gradStartAlpha: .8;
+	gradStartColor: #999;
+	padding: 1.03;
+	thickness: 8;
+}
+
+ZFrame.roundrect
+{
+	borderAlpha: 0.8;
+	borderColor: #737373;
+	borderThickness: 20;
+	gradEndAlpha: 0.8;
+	gradEndColor: #333;
+	gradStartAlpha: 0.8;
+	gradStartColor: #333;
+	padding: 1.03;
+	radius: 3;
+}
+
+ZLabel
+{
+	lockTintAlpha: 0.15;
+	padding: 1.2;
+}
+
+ZLabel.body
+{
+	color: #f6f6f6;
+	fontFamily: body;
+}
+
+ZLabel.body-background
+{
+	background-alpha: 0.9;
+	background-color: #404040;
+	background-padding: 5;
+}
+
+ZLabel.head
+{
+	color: #f6f6f6;
+	fontFamily: head;
+}
+
+ZLabel.head-background
+{
+	background-alpha: 0.9;
+	background-color: #404040;
+	background-padding: 5;
+}
+
+ZLabel.strong
+{
+	color: #f6f6f6;
+	fontFamily: strong;
+}
+
+ZLabel.strong-background
+{
+	background-alpha: 0.9;
+	background-color: #404040;
+	background-padding: 5;
+}
+
+ZLine
+{
+	borderColor: #f6f6f6;
+	borderThickness: 1;
+	color: #333;
+	lockTintAlpha: 0;
+}
+
+ZMarker
+{
+	alpha: 0.5;
+	color: #318bff;
+}
+
+ZPath
+{
+	alpha: 1;
+	color: #40abe6;
+	textColor: #fff;
+	thickness: 3;
+}
+
+ZPath Ball.base
+{
+	alpha: 1;
+	fillColor: #40abe6;
+	radius: 12;
+}
+
+ZPath Ball.mid
+{
+	alpha: .5;
+	fillColor: #40abe6;
+	radius: 8;
+}
+
+ZPoly
+{
+	borderAlpha: 1;
+	borderColor: #f6f6f6;
+	borderThickness: 1;
+	gradEndAlpha: 1;
+	gradStartAlpha: 1;
+	lockTintAlpha: 0;
+	radius: 30;
+}
+
+]]></style>
+  <hash>-7230eb59</hash>
+<sync><oid>wehoceqxes6t</oid><title>algoritmos-de-grafos</title><hash>-7230eb59</hash></sync><config>KPSDdTz1KRK1XZXBARf0A0qaKaFEyvQTHnj0jx1xzzAVSw8QGQgJK2S43VIeiUim6FLtcRkBcKOLfTlexg27xWqMa13IczwU95sdX+0vZsLjUej0yVqc0Hi/0H6Jeav6aJgDPII8b8gYxH+PHVg3fVol/XikI7F2yP9uGqaprh2uagiekkWXh8wpuUTp1Qa2b+qhT1LNlrqHfosDWI3ZVI4AsR+VOcmGUNwCS7KxWOX5oiVQpHus/dy5rLw0sjDGniKQEbjUzVQdVro7TJJ/7LR+CL5QxCrv/53J+v17hTZq9vz7w9LyxSgnhp45RNTk1fjBayhg1iD4au4yWS75Nw==</config></zuiprezi>
