@@ -5,21 +5,25 @@
 using namespace std;
 
 int main(){
-  ll t;
-  cin >> t;
-  ll buffer = -1;
-  ll cont;
-  while(t--)
+  ll tam;
+  cin>>tam;
+  vector <ll> mv;
+  for (size_t i = 0; i < tam; i++) {
+    ll n;
+    cin >> n;
+    mv.push_back(n);
+  }
+  ll buffer = 0;
+  ll cont = 0;
+  for( int i = 0; i < mv.size(); i++ )
   {
-    ll k;
-    cin >> k;
-    if(k != buffer)
+    if(mv[0] == 0) cont++;
+    if(buffer != mv[i])
     {
+      buffer = mv[i];
       cont++;
-      buffer = k;
     }
   }
-
   cout << cont << endl;
   return 0;
 }
