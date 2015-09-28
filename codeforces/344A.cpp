@@ -16,7 +16,7 @@ int main(){
     if(k != buffer)
     {
       cont++;
-      k = buffer;
+      buffer = k;
     }
   }
 
