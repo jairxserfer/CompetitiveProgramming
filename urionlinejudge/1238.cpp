@@ -11,18 +11,10 @@ vector<char>  combiner(string a, string b){
   else
     maxB = buffer2;
 
-  for( int i = 0; i < maxB; i++ )
+  for( int i = 0; i <= maxB; i++ )
   {
-    if(maxB == buffer1)
-    {
-      result.push_back(a[i]);
-      if(buffer2 <= i)
-        result.push_back(b[i]);
-    } else{
-      result.push_back(a[i]);
-      if(buffer1 <= i)
-        result.push_back(b[i]);
-    }
+    result.push_back(a[i]);
+    result.push_back(b[i]);
   }
   return result;
 }
