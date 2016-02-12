@@ -117,10 +117,36 @@ void eliminarF(Tnodo &Lista) {
 }
 
 void eliminarP(Tnodo &Lista, int posicion) {
-  /* code */
+  std::cout << "Ingrese la posicion a eliminar" << std::endl;
+  if(posicion == 1)
+  {
+    Tnodo q = Lista;
+    Lista = Lista -> sgte;
+    delete(q);
+  } else{
+    int cont = 1;
+    Tnodo p = Lista, t;
+    while (cont != posicion && posicion-> sgte != NULL) {
+      t = p;
+      p = p -> sgte;
+      cont++;
+    }
+    if(cont == pos){
+      t-> sgte = p -> sgte;
+      delete(p);
+    }else{
+      std::cout << "Posicion no encontrada" << std::endl;
+    }
+  }
+
 }
 
 int main(int argc, char const *argv[]) {
-  /* code */
+  int op = -1;
+  Tnodo Lista = NULL;
+  while (op != 6) {
+    op = menu(op,Lista);
+    Mostrar(Lista);
+  }
   return 0;
 }
