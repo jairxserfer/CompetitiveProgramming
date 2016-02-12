@@ -85,10 +85,40 @@ void  Mostrar(Tnodo Lista) {
   }
 }
 
-void Modificar(Tnodo Lista) {
-  /* code */
+void Modificar(Tnodo &Lista, int valor, int posicion) {
+  Tnodo p = Lista;
+  int cont = 1;
+  while (cont != posicion && p -> sgte != NULL) {
+    p = p -> sgte;
+    cont++;
+  }
+  if(cont == posicion)
+  {
+    p -> dato = valor;
+  } else{
+    cout << "Posicion no encontra\n";
+  }
 }
 
+void eliminarI(Tnodo &Lista) {
+  Tnodo q = Lista;
+  Lista = Lista->sgte;
+  delete(q);
+}
+
+void eliminarF(Tnodo &Lista) {
+  Tnodo p = Lista, t;
+  while (p->sgte != NULL) {
+     t = p;
+     p = p -> sgte;
+  }
+  delete(p);
+  t -> sgte = NULL;
+}
+
+void eliminarP(Tnodo &Lista, int posicion) {
+  /* code */
+}
 
 int main(int argc, char const *argv[]) {
   /* code */
