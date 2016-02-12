@@ -141,6 +141,46 @@ void eliminarP(Tnodo &Lista, int posicion) {
 
 }
 
+int menuI(int op, Tnodo &lista){
+  cout << "\t\t\t1. Al Inicio de la Lista\n";
+  cout << "\t\t\t2. Al final de la lista\n";
+  cout << "\t\t\t3. En una posicion especifica\n";
+  cin >> op;
+  switch (op) {
+    case 1: insertarI(lista);break;
+    case 2: insertarF(lista);break;
+    case 3: insertarP(lista);break;
+  }
+}
+
+int menuE(int op, Tnodo &lista){
+  cout << "\t\t\t1. Inicio de la Lista\n";
+  cout << "\t\t\t2. Final de la lista\n";
+  cout << "\t\t\t3. Por posicion especifica\n";
+  cin >> op;
+  switch (op) {
+    case 1:eliminarI(lista);break;
+    case 2:eliminarF(lista);break;
+    case 3:eliminarP(lista);break;
+  }
+}
+
+
+
+int menu(int op, Tnodo &lista){
+  cout << "\t\t1. Insertar Elementos\n";
+  cout << "\t\t2. Eliminar Elementos\n";
+  cout << "\t\t3. Modificar en una posicion especifica\n";
+
+  cin >> op;
+      switch (op) {
+      case 1: menuI(op,lista);break;
+      case 2: menuE(op,lista);break;
+      case 3: Modificar(lista);break;
+    }
+
+}
+
 int main(int argc, char const *argv[]) {
   int op = -1;
   Tnodo Lista = NULL;
