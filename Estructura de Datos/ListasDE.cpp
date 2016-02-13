@@ -31,13 +31,38 @@ void insertarF(TListaDE &Lista, int aInsertar)
     {
       aux = aux -> sgte;
     }
-    
+    aux -> sgte = q;
   }
-
 
 }
 
+void insertarI(TListaDE &Lista, int aInsertar)
+{
+  Tnodo q = new(struct nodo), aux;
+  q -> dato = aInsertar;
+  q -> anterior = NULL
+  if(Lista == NULL)
+  {
+    q -> sgte = NULL;
+    Lista = q;
+  }
+  else
+  {
+    aux = Lista;
+    q -> sgte = aux;
+    Lista = q;
+  }
+}
 
+void mostrarSH(TListaDE Lista){
+  while(Lista -> sgte != NULL){
+    
+  }
+}
+
+void mostrarSA(TListaDE Lista){
+
+}
 
 int main(int argc, char const *argv[]) {
   /* code */
