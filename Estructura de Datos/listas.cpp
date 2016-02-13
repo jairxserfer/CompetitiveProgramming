@@ -8,7 +8,7 @@ struct nodo{
 };
 typedef nodo *Tnodo;
 
-
+/*Inserta un elemento al final de la lista*/
 void insertarFinal(Tnodo &Lista, int aInsertar){
   Tnodo q  = new(struct nodo) , m;
   q -> dato = aInsertar;
@@ -25,7 +25,7 @@ void insertarFinal(Tnodo &Lista, int aInsertar){
   }
 
 }
-
+/*Inserta un elemento al inicio de la lista*/
 void insertarInicio(Tnodo &Lista, int aInsertar){
   Tnodo q = new(struct nodo);
   q -> dato = aInsertar;
@@ -33,6 +33,7 @@ void insertarInicio(Tnodo &Lista, int aInsertar){
   Lista = q;
 }
 
+/*Inserta en una posicion especifica de la Lista*/
 void insertarPosicio(Tnodo &Lista, int aInsertar, int posicion){
   Tnodo q = new(struct nodo);
   q -> dato = aInsertar;
@@ -58,6 +59,7 @@ void insertarPosicio(Tnodo &Lista, int aInsertar, int posicion){
   }
 }
 
+/*Busca algun dato en la lista y devuelve la posicion*/
 void busqueda(Tnodo Lista, int valorB){
   Tnodo q = Lista;
   int i = 1, band = 0;
@@ -76,6 +78,7 @@ void busqueda(Tnodo Lista, int valorB){
     cout << "\n\n numero no encontrado \n\n";
 }
 
+/*Recorre cada elemento de la lista y lo muestra*/
 void  Mostrar(Tnodo Lista) {
   int i = 0;
   while (Lista != NULL) {
@@ -85,6 +88,7 @@ void  Mostrar(Tnodo Lista) {
   }
 }
 
+/*Busca una posicion dada y cambia el dato de esa posición*/
 void Modificar(Tnodo &Lista, int valor, int posicion) {
   Tnodo p = Lista;
   int cont = 1;
@@ -100,11 +104,14 @@ void Modificar(Tnodo &Lista, int valor, int posicion) {
   }
 }
 
+/*Elimina al inicio de la Lista*/
 void eliminarI(Tnodo &Lista) {
   Tnodo q = Lista;
   Lista = Lista->sgte;
   delete(q);
 }
+
+/*Elimina al final de la Lista*/
 
 void eliminarF(Tnodo &Lista) {
   Tnodo p = Lista, t;
@@ -115,6 +122,9 @@ void eliminarF(Tnodo &Lista) {
   delete(p);
   t -> sgte = NULL;
 }
+
+
+/*Elimina en una posicion específica de la Lista*/
 
 void eliminarP(Tnodo &Lista, int posicion) {
   std::cout << "Ingrese la posicion a eliminar" << std::endl;
