@@ -14,7 +14,7 @@ typedef nodo *TListaDE;
 
 void insertarF(TListaDE &Lista, int aInsertar)
 {
-  Tnodo q = new(struct nodo), aux;
+  TListaDE q = new(struct nodo), aux;
   q -> dato = aInsertar;
   q -> sgte = NULL;
 
@@ -38,9 +38,9 @@ void insertarF(TListaDE &Lista, int aInsertar)
 
 void insertarI(TListaDE &Lista, int aInsertar)
 {
-  Tnodo q = new(struct nodo), aux;
+  TListaDE q = new(struct nodo), aux;
   q -> dato = aInsertar;
-  q -> anterior = NULL
+  q -> anterior = NULL;
   if(Lista == NULL)
   {
     q -> sgte = NULL;
@@ -48,23 +48,49 @@ void insertarI(TListaDE &Lista, int aInsertar)
   }
   else
   {
+    //cout << q -> dato << " :D";
     aux = Lista;
-    q -> sgte = aux;
     Lista = q;
+    q -> sgte = aux;
+
   }
 }
 
 void mostrarSH(TListaDE Lista){
   while(Lista -> sgte != NULL){
-    
+    cout << Lista -> dato << " ";
+    Lista = Lista -> sgte;
   }
-}
+  cout << Lista -> dato << endl;
+
+
+  }
 
 void mostrarSA(TListaDE Lista){
-
-}
+  TListaDE q = Lista;
+  /*while(Lista->sgte != NULL){
+    Lista = Lista -> sgte;
+  }
+  while(Lista-> sgte ->anterior != NULL){
+    cout << Lista -> dato << " ";
+    Lista = Lista-> sgte    -> anterior;
+  }*/
+  }
 
 int main(int argc, char const *argv[]) {
-  /* code */
+  TListaDE Lista = NULL, Lista2 =NULL;
+  int a;
+  for(int i=0;i<=4;i++){
+    a=rand() %100;
+    insertarF(Lista,a);
+  }
+  for(int i = 0; i <= 4; i++){
+    a = rand() %100;
+    insertarI(Lista2,a);
+  }
+  mostrarSH(Lista);
+  mostrarSH(Lista2);
+  mostrarSA(Lista);
+  mostrarSA(Lista2);
   return 0;
 }
