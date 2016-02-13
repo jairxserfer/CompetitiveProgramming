@@ -41,23 +41,17 @@ void Intercambio(Tnodo &Lista)
     while( k -> sgte != NULL)
     {
       q = k -> sgte;
-      r = k -> sgte;
-      int m = q->dato;
-      Tnodo j;
-      while(q != NULL){
-        if(m < q-> dato)
+      while(q -> sgte != NULL)
+      {
+        if(k->dato > q ->dato)
         {
-          m = q -> dato;
-          j = q;
+          int m = k ->dato;
+          k -> dato = q -> dato;
+          q -> dato = m;
         }
         q = q -> sgte;
       }
-      if(m < k->dato)
-      {
-        int h = k -> dato;
-        k -> dato = m;
-        j -> dato = h;
-      }
+      k = k->sgte;
     }
 }
 
