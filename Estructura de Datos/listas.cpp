@@ -29,7 +29,7 @@ void insertarFinal(Tnodo &Lista, int aInsertar){
 void insertarInicio(Tnodo &Lista, int aInsertar){
   Tnodo q = new(struct nodo);
   q -> dato = aInsertar;
-  q -> sgte = NULL;
+  q -> sgte = Lista;
   Lista = q;
 }
 
