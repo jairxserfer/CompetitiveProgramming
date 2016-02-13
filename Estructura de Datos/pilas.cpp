@@ -34,7 +34,7 @@ int pop(tPila &Pila) {
 }
 
 /*Un simple método que muestra*/
-int mostrar(tPila &Pila){
+int mostrar(tPila Pila){
   tPila q = Pila;
   while(q != NULL){
     std::cout << q->dato <<" " ;
