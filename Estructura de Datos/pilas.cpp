@@ -33,6 +33,7 @@ int pop(tPila &Pila) {
   return numero;
 }
 
+/*Un simple método que muestra*/
 int mostrar(tPila &Pila){
   tPila q = Pila;
   while(q != NULL){
