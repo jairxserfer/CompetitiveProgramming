@@ -37,7 +37,28 @@ void  mostrar(Tnodo Lista) {
 void Intercambio(Tnodo &Lista)
 {
     Tnodo k, q;
-    
+    k = Lista;
+    while( k -> sgte != NULL)
+    {
+      q = k -> sgte;
+      r = k -> sgte;
+      int m = q->dato;
+      Tnodo j;
+      while(q != NULL){
+        if(m < q-> dato)
+        {
+          m = q -> dato;
+          j = q;
+        }
+        q = q -> sgte;
+      }
+      if(m < k->dato)
+      {
+        int h = k -> dato;
+        k -> dato = m;
+        j -> dato = h;
+      }
+    }
 }
 
 
