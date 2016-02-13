@@ -1,4 +1,6 @@
 #include <bits/stdc++.h>
+//Este programa permite ingresar elementos en
+//una Lista circular simple
 
 using namespace std;
 
@@ -8,7 +10,8 @@ struct nodo{
 };
 typedef nodo *TLista;
 
-void insertarFinal(TLista &Lista, int numero){
+void insertarFinal(TLista &Lista, int numero)
+{
   TLista q = new(struct nodo), fin;
   q -> dato = numero;
   q -> sgte = Lista;
@@ -29,6 +32,7 @@ void insertarFinal(TLista &Lista, int numero){
 
 
 
+
 void mostrarSH(TLista Lista){
   TLista  q = Lista;
   TLista  m = Lista;
@@ -44,13 +48,16 @@ void mostrarSH(TLista Lista){
 
 int main(int argc, char const *argv[]) {
   TLista Lista = NULL;
+  TLista Lista2 = NULL;
   int a,k;
   cout << "Ingrese el numero de elementos a ingresar a la Lista\n";
   cin >> k;
   for(int i=0;i<=k;i++){
     a=rand() %100;
     insertarFinal(Lista,a);
+    insertarInicio(Lista2,a);
   }
-  mostrar(Lista);
+  mostrarSH(Lista);
+  mostrarSH(Lista2);
   return 0;
 }
